@@ -1,0 +1,5 @@
+app_name            = "terraform-aoai-testing"
+resource_group_name = "YOUR AZURE RESOURCE GROUP NAME"
+location            = "japaneast"
+subdomain_name      = "terraform-aoai-testing"
+subscription_id     = "YOUR AZURE SUBSCRIPTION ID"
