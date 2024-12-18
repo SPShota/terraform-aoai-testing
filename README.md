@@ -12,8 +12,8 @@ cp -p terraform.tfvars.sample terraform.tfvars
 
 Create Azure Resource Group and Azure Blob Storage (Storage Account and Container).
 ```sh
-az group create -n <resource-group-name> -l japaneast
-az storage account create -n <storage-account-name> -g <resource-group-name> -l japaneast
+az group create -n <resource-group-name> -l <location>
+az storage account create -n <storage-account-name> -g <resource-group-name> -l <location>
 az storage container create -n <storage-container-name> --account-name <storage-account-name>
 ```
 
