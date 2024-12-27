@@ -8,6 +8,8 @@ terraform {
   }
 }
 provider "azurerm" {
-  subscription_id = var.subscription_id
+  subscription_id            = var.subscription_id
+  use_oidc                   = true
+  skip_provider_registration = "true"
   features {}
 }
